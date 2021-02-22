@@ -146,7 +146,10 @@ h1, h2, h3, h4, h5, h6 {
 	width:960px;
 	}
 	.desktop{
-		width:500px;
+		width:auto;
+	}
+	.intro{
+		width:auto
 	}
 }
 
@@ -176,6 +179,9 @@ h1, h2, h3, h4, h5, h6 {
 	.title span{
 		font-size: 50px;
 	}
+	.desktop{
+		width:100%;
+	}
 }
 
 /*0-567px*/
@@ -183,8 +189,20 @@ h1, h2, h3, h4, h5, h6 {
 	.container{
 		width:100%;
 	}
+	.desktop{
+		width:100%;
+	}
+	.future {
+		flex-direction: column;
+		align-items: center;
+	}
+	.btn{
+		display: none;
+	}
+	.freetime {
+		width: auto;
+	}
 }
-
 
 
 
